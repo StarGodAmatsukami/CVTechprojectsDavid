@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<label>
+ <br>
+ <br>
+ <fieldset>
+ <img src="image.png" alt="image of cvtech logo">
+ <h1 style="text-align: right;">Canadian Valley Technology Center</h1>
+ <p>Practice Employment Application</p>
+ <header id="Header1" style=" background-color: rgb(92, 91, 91); text-align: center; color: white; font-size: 20px;">Applicant Information</header>
+ <p>Full Name: <input type="text" id="Fullname"> <br>
+    <small class="FullnameSubLast">Last</small>
+    <small class="FullnameSubFirst">First</small>
+    <small class="FullnameSubMI">M.I.</small>
+    <p style="text-align: right; transform: translateY(-51px);">Date: <input type="text" id="Date"></p>
+ <br>
+ <br>
+ <label>Address:</label> <input type="text" id="Address" name="Address"> <br>
+ <label class="AddressSubStreetAddress" for="Address">Street Address </label>
+    <label class="AddressSubCity">City</label>
+    <label class="AddressSubState">State</label>
+    <label class="AddressSubZipCode">Zip Code</label>
+ <br>
+ <br>
+ <p>Phone: <input type="text" id="Phone"> Email: <input type="text" id="Email"></p>
+ <br>
+ <p>Date Available: <input type="text" id="DateAvailable"> Social Security No.: <input type="text" id="SSN" placeholder="###-##-####"> Desired Salary: <input type="text" id="DesiredSalary" placeholder="$">
+</p>
+ <br>
+ <p>What position are you applying for? <input type="text" id="ApplyingPosition"></p>
+ <br>
+ <p>How did you learn about this position? <input type="text" id="LearnPosition"></p>
+ <p>Are you a citizen of the United States? <input type="radio" id="Yes" name="Yes" value="Yes" class="radio">
+    <label for="Yes">YES</label>
+    <input type="Radio" id="No" name="No" value="No">
+    <label for="No">NO</label> If no, are you authorized to work in the U.S. <input type="Radio" id="Yes" name="Yes" value="Yes">
+    <label for="Yes">YES</label>
+    <input type="Radio" id="No" name="No" value="No">
+    <label for="No">NO</label></p>
+    <p style="left: 50%;">Have you ever worked for this company? <input type="Radio" id="Yes" name="Yes" value="Yes">
+        <label>YES<input type="Radio" id="No" name="No" value="No"></label>
+        <label for="No">NO</label> If yes when? <input id="YesWhen"></p>
+        <p>Have you ever been convicted of a felony? <input type="Radio" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">YES</label>
+            <input type="Radio" id="No" name="No" value="No">
+            <label for="No">NO</label></p>
+        <p>If yes explain: <input type="text" id="YesExplain"></p>
+        <p class="a">1</p>
+      </fieldset>
+      <fieldset>
+         <header id="Header2" style=" background-color: rgb(92, 91, 91); text-align: center; color: white; font-size: 20px;">Education</header>
+         <p class="a">2</p>
+         <p>High School:<input id="HS" type="text"> Address:<input id="HSAddress" type="text"></p>
+         <p>From: <input id="From" type="text"> To: <input id="To" type="text"> Did you graduate?<input type="checkbox" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">YES</label>
+            <input type="checkbox" id="No" name="No" value="No">
+            <label for="No">NO</label> Diploma: <input id="Diploma" type="text"></p>
+            <p>College: <input id="College" type="text">Address: <input id="CollegeAddress" type="text"></p>
+            <p>From: <input id="From" type="text"> To: <input id="To" type="text"> Did you graduate?<input type="checkbox" id="Yes" name="Yes" value="Yes">
+               <label for="Yes">YES</label>
+               <input type="checkbox" id="No" name="No" value="No">
+               <label for="No">NO</label> Degree: <input id="Degree" type="text"></p>
+               <p>Other: <input id="EducationOther" type="text"> Address: <input id="HSAddress" type="text"></p>
+               <p>From: <input id="From" type="text"> To: <input id="To" type="text"> Did you graduate?<input type="checkbox" id="Yes" name="Yes" value="Yes">
+                  <label for="Yes">YES</label>
+                  <input type="checkbox" id="No" name="No" value="No">
+                  <label for="No">NO</label> Degree: <input id="Degree" type="text"></p>  
+      </fieldset>
+      <fieldset>
+         <header id="Header3" style=" background-color: rgb(92, 91, 91); text-align: center; color: white; font-size: 20px;">References</header>
+         <p class="a">3</p>
+         <p style="font-style: italic;">Please list three professional references.</p>
+         <p>Full Name: <input id="FullNameReferences" type="text"> Relationship: <input id="Relationship" type="text"></p>
+         <p>Company: <input id="CompanyReferences" type="text"> Phone: <input id="PhoneReferences" type="text"></p>
+         <p>Email:</p>
+         <p>Full Name: <input id="FullNameReferences" type="text"> Relationship: <input id="Relationship" type="text"></p>
+         <p>Company: <input id="CompanyReferences" type="text"> Phone: <input id="PhoneReferences" type="text"></p>
+         <p>Email:</p>
+         <p>Full Name: <input id="FullNameReferences" type="text"> Relationship: <input id="Relationship" type="text"></p>
+         <p>Company: <input id="CompanyReferences" type="text"> Phone: <input id="PhoneReferences" type="text"></p>
+         <p>Email: <input id="EmailReferences" type="text"></p>
+      </fieldset>
+      <fieldset>
+         <header id="Header4" style=" background-color: rgb(92, 91, 91); text-align: center; color: white; font-size: 20px;">Previous Employment</header>
+         <p class="a">4</p>
+         <p>Company: <input id="CompanyPE" type="text"> Phone: <input id="PhonePE" type="text"></p>
+         <p>Address: <input id="AddressPE" type="text">Supervisor:<input id="SupervisorPE" type="text"></p>
+         <p>Job Title: <input id="JobTitlePE" type="text"> Starting Salary <input id="StartingSalaryPE" type="text" placeholder="$"> Ending Salary: <input id="EndingSalaryPE" type="text" placeholder="$"></p>
+         <p>Responsibilities: <input id="ResponsibilitiesPE" type="text"></p>
+         <p>From: <input id="FromPE" type="text">To: <input id="ToPE" type="text"> Reasons for Leaving: <input id="ReasonsforLeavingPE" type="text"></p>
+         <p>May we contact your previous supervisor for a reference? <input type="checkbox" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">YES</label>
+            <input type="checkbox" id="No" name="No" value="No">
+            <label for="No">NO</label></p>
+            <p>Company: <input id="CompanyPE" type="text"> Phone: <input id="PhonePE" type="text"></p>
+         <p>Address: <input id="AddressPE" type="text">Supervisor:<input id="SupervisorPE" type="text"></p>
+         <p>Job Title: <input id="JobTitlePE" type="text"> Starting Salary <input id="StartingSalaryPE" type="text" placeholder="$"> Ending Salary: <input id="EndingSalaryPE" type="text" placeholder="$"></p>
+         <p>Responsibilities: <input id="ResponsibilitiesPE" type="text"></p>
+         <p>From: <input id="FromPE" type="text">To: <input id="ToPE" type="text"> Reasons for Leaving: <input id="ReasonsforLeavingPE" type="text"></p>
+         <p>May we contact your previous supervisor for a reference? <input type="checkbox" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">YES</label>
+            <input type="checkbox" id="No" name="No" value="No">
+            <label for="No">NO</label></p>
+            <p>Company: <input id="CompanyPE" type="text"> Phone: <input id="PhonePE" type="text"></p>
+         <p>Address: <input id="AddressPE" type="text">Supervisor:<input id="SupervisorPE" type="text"></p>
+         <p>Job Title: <input id="JobTitlePE" type="text"> Starting Salary <input id="StartingSalaryPE" type="text" placeholder="$"> Ending Salary: <input id="EndingSalaryPE" type="text" placeholder="$"></p>
+         <p>Responsibilities: <input id="ResponsibilitiesPE" type="text"></p>
+         <p>From: <input id="FromPE" type="text">To: <input id="ToPE" type="text"> Reasons for Leaving: <input id="ReasonsforLeavingPE" type="text"></p>
+         <p>May we contact your previous supervisor for a reference? <input type="checkbox" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">YES</label>
+            <input type="checkbox" id="No" name="No" value="No">
+            <label for="No">NO</label></p>
+      </fieldset>
+      <fieldset>
+         <header id="Header5" style=" background-color: rgb(92, 91, 91); text-align: center; color: white; font-size: 20px;">Skills and Abilities</header>
+         <p>What skills and abilities qualify you for this position? <input id="Skills" type="text"></p>
+         <p>Why are you interested in working for this company? <input id="Interested" type="text"></p>
+      </fieldset>
+      <fieldset>
+         <header id="Header6" style=" background-color: rgb(92, 91, 91); text-align: center; color: white; font-size: 20px;">Disclaimer and Signature</header>
+         <p style="font-style: italic;">I certify that my answers are true and complete to the besy of my knowledge.</p>
+         <p style="font-style: italic;">If this application leads to employment, I understand that false or misleading information in my application or interview may result in my release.</p>
+         <p>Signature: <input id="Signature" type="text"> Date: <input id="DateDisclaimer" type="text"></p>
+      </fieldset>
+</label>
+</body>
+</html>
+

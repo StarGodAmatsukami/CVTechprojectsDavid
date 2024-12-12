@@ -1,0 +1,401 @@
+#Header1 {
+    font-weight: 600;
+}
+p.a{text-align: center;}
+fieldset{margin: 5% 20%;}
+#Fullname {
+ border-top: 0cm;
+ border-left: 0cm;
+ border-right: 0cm;
+ width: 70%;
+ outline: none;
+ background-color: transparent;
+ border-color: black;
+}
+.FullnameSubLast {
+    padding-left: 8%;
+}
+.FullnameSubFirst {
+    padding-left: 28%;
+}
+.FullnameSubMI {
+    padding-left: 30%;
+}
+#Date {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 10%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+#Address {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    width: 94%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+#Email {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 40%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+}
+label.AddressSubStreetAddress {
+    padding-left: 5%;
+    font-style: italic;
+    
+}
+.AddressSubCity {
+    padding-left: 16%;
+    font-style: italic;
+}
+.AddressSubState {
+    padding-left: 20%;
+    font-style: italic;
+}
+.AddressSubZipCode {
+    padding-left:25%;
+    font-style: italic;
+}
+   #Phone {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 50%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #DateAvailable {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 22%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #SSN {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 22%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #DesiredSalary {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 22%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #ApplyingPosition {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 75%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #LearnPosition {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 74%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #YesExplain {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 90%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #YesWhen {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 55%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #HS {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 35%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #HSAddress {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 50%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+    transform: translateX(3px);
+   }
+   #From{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 10%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #To{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 15%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #Diploma{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 40%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #College{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 40%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #CollegeAddress{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 45%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #Degree{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 40%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #EducationOther{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 35%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #FullNameReferences{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 60%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #Relationship{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 20%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #CompanyReferences{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 60%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #PhoneReferences{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #EmailReferences{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 94%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #CompanyPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 60%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #PhonePE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 26%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #AddressPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 40%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #SupervisorPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 45%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #JobTitlePE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 20%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #StartingSalaryPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 23%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #EndingSalaryPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #ResponsibilitiesPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 80%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #FromPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 23%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #ToPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 23%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #ReasonsforLeavingPE{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #Skills{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 60%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #Interested{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 60%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #Signature{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 50%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
+   #DateDisclaimer{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    width: 39%;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+   }
