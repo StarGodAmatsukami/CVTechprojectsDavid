@@ -1,0 +1,19 @@
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+   }
+table{
+    width: 100%;
+}
+tr{
+    font-size: large;
+}
+#Elon{
+    background-color: grey;
+}
+#Mark{
+    background-color: grey;
+}
+/*David Ward III/*
+/*8/29/2024/*

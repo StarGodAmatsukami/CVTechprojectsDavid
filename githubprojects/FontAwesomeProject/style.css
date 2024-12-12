@@ -1,0 +1,23 @@
+ table, td, th{
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 85%;
+  height: 20%;
+ }
+.Vertical{
+writing-mode: vertical-lr;
+transform: rotate(180deg);
+}
+td{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(200, 255, 200);
+}
+th{
+    padding: 10px;
+    text-align: left;
+}
+.degree
+{
+    transform: rotate(180deg);
+}
